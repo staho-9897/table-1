@@ -1,0 +1,139 @@
+pil;/<!DOCTYPE html>
+<head>
+<title>Table 2</title>
+<style>
+    td:hover{
+        background-color: bisque;
+    }
+</style>
+
+</head>
+<body bgcolor="pink">
+<table border="2" width="50%" height="50%" alighn="center" height="60%"
+       <caption>Public Policy and Administration Department</caption>
+       <colgroup>
+        <col bgcolor="purple"></col>
+        <col bgcolor="gray"></col>
+        <col bgcolor="purple"></col>
+        <col bgcolor="gray"></col>
+        <col bgcolor="purple"></col>
+
+    </colgroup>
+    
+    <thead>
+        <th>Name</th>
+        <th>Laast name</th>
+        <th>Possition</th>
+        <th>Section</th>
+        <th>Salary</th>
+    </thead>
+<tbody>
+    <tr>
+        <td>Hogai</td>
+        <td>Stanikzai</td>
+        <td>Head of Department</td>
+        <td>Public Policy</td>
+        <td>3000$</td> 
+    </tr>
+        <td>Aysha</td>
+        <td>Barikzai</td>
+        <td>finintial Manager</td>
+        <td>Public Administration</td>
+        <td>1000$</td>
+    </tr>
+    <tr>
+        <td>Hilai</th>
+        <td>Habib</th>
+        <td>Adminastrative Officer</th>
+        <td>Businas Administration</th>
+        <td>1200$</th>
+    </tr>
+    <tr>
+        <td>Farhat</td>
+        <td>Shams</td>
+        <td>IT Manager</td>
+        <td> computer scince</td>
+        <td>500$</td>
+    </tr>
+   
+    
+</tfoot>
+<tr>
+        
+    <td colspan="4">Total</td>
+    <td>5700$</td> 
+</tr>
+</table>
+
+<table border="2" width="50%" height="50%" alighn="center" height="60%"
+       <caption>Public Policy and Administration Department</caption>
+       <colgroup>
+        <col bgcolor="purple"></col>
+        <col bgcolor="gray"></col>
+        <col bgcolor="purple"></col>
+        <col bgcolor="gray"></col>
+        <col bgcolor="purple"></col>
+
+    </colgroup>
+    
+    <thead>
+        <th>Name</th>
+        <th>Laast name</th>
+        <th>Possition</th>
+        <th>Section</th>
+        <th>Salary</th>
+    </thead>
+<tbody>
+    <tr>
+        <td>Hogai</td>
+        <td>Stanikzai</td>
+        <td>Head of Department</td>
+        <td>Public Policy</td>
+        <td>3000$</td> 
+    </tr>
+        <td>Aysha</td>
+        <td>Barikzai</td>
+        <td>finintial Manager</td>
+        <td>Public Administration</td>
+        <td>1000$</td>
+    </tr>
+    <tr>
+        <td>Hilai</th>
+        <td>Habib</th>
+        <td>Adminastrative Officer</th>
+        <td>Businas Administration</th>
+        <td>1200$</th>
+    </tr>
+    <tr>
+        <td>Farhat</td>
+        <td>Shams</td>
+        <td>IT Manager</td>
+        <td> computer scince</td>
+        <td>500$</td>
+    </tr>
+   
+    
+</tfoot> 
+<tr>
+        
+    <td colspan="4">
+        <button onclick="changcolor()">
+         chang tbody color
+        </button>
+    </td>
+    <td>5700$</td> 
+</tr>
+</table>
+<script>
+     function changcolor(){
+        var x=document.getElementsByTagName('tbody');
+
+        for(i=0;i<x.length;i++){
+            x[i].style.backgroundColor="yellow";
+
+        }
+        
+     }
+</script>
+</body>
+</html>
